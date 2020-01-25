@@ -1,2 +1,15 @@
-            Hello
- world!! with github
+<?php
+$var1 = $_GET['value1'];
+$var2 = $_GET['value2'];
+
+$filec="have" .$var1."in".$var2." state.\n";
+
+$fileS =file_put_contents('trail.txt',$filec,FILE_APPEND);
+
+if($fileS!=false)
+	echo "Success";
+else
+	echo "Failure";
+
+
+?>
