@@ -1,0 +1,39 @@
+<html>
+<head>
+<title></title>
+</head>
+<body>
+	<style>
+		.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+<!-- This is just for aesthetics, centering the
+content within the paragraph -->
+<p align="center">
+<font size="8">  
+<!-- This part is a a link, which also sends a request to the php-document,
+telling it to write 1 or 0 to LEDstate.txt -->
+
+
+<b><a id="demo" href="led.php?state=1" >ON</a></b> 
+<b><a id="demo2" href="led.php?state=0">OFF</a></b></font>
+
+</p>
+<b><a align=center id ="demo3" href="http://192.168.56.1/WEB/new/web.php">DATABASE</a></b>
+<!--<a href="led.php?state=1"><button class=button >ON</button></a>
+<a  href="led.php?state=0" ><button class=button>OFF</button></a>
+ <a href="http://192.168.56.1/WEB/web.php"> Click here for database</a>
+-->
+</body>
+</html>
+
